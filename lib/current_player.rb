@@ -1,8 +1,7 @@
 def turn_count(board)
-      count = 0
-      arr = []
-    board.each do |xo| arr != "X" || xo != "O" 
-      count += 1
-    
+    counter = 0 
+    board.each do |xo| xo != "X" || xo != "O" 
+      counter += 1
+    end
   end
 end 
