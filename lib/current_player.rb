@@ -3,6 +3,6 @@ def turn_count(board)
     board.each do 
       if |xo| xo != "X" || xo != "O" 
       counter += 1
-    end
+    
   end
 end 
